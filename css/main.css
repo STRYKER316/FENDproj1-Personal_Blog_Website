@@ -1,0 +1,34 @@
+header {
+    /* border: 1px solid red; */
+    padding: 1em 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    text-decoration: underline;
+}
+
+main {
+    margin: 1em 1em;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+/* make each blog post style a separate css file */
+article {
+    border: 2px solid silver;
+    border-style:inset;
+}
+
+
+
+footer {
+    border: 1px solid red;
+    background-color: gray;
+    width: 100%;
+}
